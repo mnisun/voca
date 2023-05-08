@@ -18,6 +18,7 @@ dependencies {
 	implementation 'nz.net.ultraq.thymeleaf:thymeleaf-layout-dialeat'
 	implementation 'org.springframework.boot:spring-boot-starter-web'
 	testImplementation 'org.springframework.boot:spring-boot-starter-test'
+	implementation 'org.mariadb.jdbc:mariadb-java-clinet:10.11.2'
 }
 
 tasks.named('test') {
