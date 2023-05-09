@@ -5,7 +5,7 @@ import lombok.Data;
 import java.util.Date;
 
 @Data
-public class BoardDto {
+public class BoardDTO {
 
     private int board_no; // 게시물 번호료
     private String title; // 게시물 제목
